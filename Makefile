@@ -10,7 +10,7 @@ all:
  pack - make output archive, file name format \"pp_cmd_datalines_vX.Y.Z_BRANCHNAME.tar.gz\"\n\
 "
 
-VERSION := "0.1.0"
+VERSION := "0.1.1"
 BRANCH := $(shell git name-rev $$(git rev-parse HEAD) | cut -d\  -f2 | sed -re 's/^(remotes\/)?origin\///' | tr '/' '_')
 
 CONDA = conda/miniconda/bin/conda
