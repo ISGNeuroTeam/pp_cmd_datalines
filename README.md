@@ -69,3 +69,6 @@ query: | otl_v1 <# makeresults count=100 #> |  datalines "a,b,c\n1.2,2,3\n2.3,4,
 ```
 ## Deploy
 Unpack archive `pp_cmd_datalines` to postprocessing commands directory
+
+## Test
+Use `make test` and all test will run in Docker container. Please turn the vpn on so all the OTL dependencies would download.
